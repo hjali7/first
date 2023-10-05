@@ -9,11 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.12",
-    "next": "13.4.12",
+    "formik": "^2.4.3",
+    "mongodb": "^6.1.0",
+    "mongoose": "6.11.1",
+    "mongose": "^0.0.2-security",
+    "next": "^13.5.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-redux": "^8.1.2",
+    "swr": "^2.2.4",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

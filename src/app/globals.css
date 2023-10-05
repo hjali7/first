@@ -87,16 +87,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #111;
+  color: #bbb;
 }
 
 a {
@@ -104,8 +96,26 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.container {
+  max-width: 1366px;
+  min-height: 100vh;
+  padding: 0 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light {
+  background: #ffffff;
+  color: #000;
+}
+
+.dark {
+  background: #000;
+  color: #ffffff;
+}
+
+.theme {
+  transition: all 1s ease;
 }
